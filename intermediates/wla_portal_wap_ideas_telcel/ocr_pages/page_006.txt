@@ -1,0 +1,76 @@
+=== OCR (PaddleOCR) ===
+telcel
+Acuerdo de Trabajo para brindar soporte al
+Página
+servicio
+6 de 14
+Fecha de
+Elaboración
+"Portal WAP Ideas Telcel"
+20 - Septiembre- 2010
+Versión: 2.0
+Responsable
+Tiempo de
+Actividades
+Respuesta
+Recibir y atender los reportes y llamadas de Atención a
+clientes R1-8 y CAC's con respecto a Problemas/ Fallas con
+la Facturación o tasación para usuarios Postpago, Prepago y
+Mixtos.
+Validación de navegación y "look and feel" dentro y fuera del
+Portal WAP.
+En caso de fallas, realizar la escalación a Speedy Movil.
+Validación de compra de contenidos/ paquetes y
+suscripciones de proveedores a través del Portal WAP.
+En caso de fallas, realizar la escalación a Speedy Movil.
+En caso de presentarse fallas en la entrega de Contenidos
+(entrega de contenido erróneo, contenido defectuoso,
+Asesores de Datos
+contenido no compatible con la terminal) para usuarios
+(R1 - 8)
+corporativos/_ Problema Masivo hacer la escalación hacia
+30 minutos.
+Speedy
+Móvil
+Contenidos
+vía
+E-Mail
+a:
+(Diagnostico)
+Nivel II
+inventarioamx@speedy.com.
+Verificar si existen fallas en las plataformas SMS-C, MMS-C,
+WAPGw, etc.
+En caso de fallas, realizar la escalación al siguiente nivel.
+Aplicar solución a la falla en caso de existir.
+Notificar al usuario y/ o Área de soporte que escalo la
+incidencia sobre la resolución de la misma.
+Documentar (Levantar CDP) y escalar las fallas no resueltas
+y problemas referentes al servicio al tercer nivel de
+escalamiento de fallas.
+Validación y seguimiento de resolución después de
+escalación hasta su cierre.
+En caso de detectar una afectación masiva, realizar la
+escalación a Help Desk de Datos.
+Recibir y atender los reportes y llamadas de Atención a
+clientes R1-8 y CAC's con respecto a Problemas/ Fallas con
+la Facturación o tasación para usuarios Postpago y Mixtos.
+En caso de ser necesario, hacer la escalación
+correspondiente a Soporte a Usuarios.
+Sistemas Regionales
+(R1 - 8)
+Aplicar solución a la falla en caso de existir.
+Notificar al usuario y/ o Área de soporte que escalo la
+Nivel II
+incidencia sobre la resolución de la misma.
+Documentar (Levantar CDP) y escalar las fallas no resueltas
+y problemas referentes al servicio al tercer nivel de
+escalamiento de fallas.
+Validación y seguimiento de resolución después de
+escalación hasta su cierre.
+Elaboró: José Héctor López Gómez
+Revisó: Lorenzo Caballero Rosas
+Gerencia de Administración de Nuevos Proyectos SVA
+
+=== VISION (moondream) ===
+- Si hay TABLAS: lista cada fila con sus encabezados de columna.   Formato: 'Columna1: Valor1. Columna2: Valor2.' para cada fila.

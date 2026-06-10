@@ -1,0 +1,66 @@
+=== OCR (PaddleOCR) ===
+htelcel
+Acuerdo de Trabajo para brindar soporte al
+Página
+servicio
+11 de 14
+"Portal WAP Ideas Telcel"
+Fecha de Elaboración
+20 - Septiembre- 2010
+Versión: 2.0
+Tiempo de
+Responsable
+Actividades
+Respuesta
+1
+Recibir y atender reportes escalados de Soporte y Control
+R&R/ Mediación
+a la Producción, relacionados con Facturación y cobros del
+servicio para usuarios Postpago, Mixtos y Corporativos.
+7 días
+Nivel IV
+(Solución)
+En caso de problemas con tarifas delservicio, hacer la
+Contacto: A través de
+escalación correspondiente a COR.
+CA Service Desk
+Dar solución a los reportes del área de CoR, cuando se
+tengan fallas masivas con los nodos de la Red GSM
+/WCDMA.
+Proveedor
+Dar solución a los reportes del área de COR, cuando se
+Infraestructura Red
+tengan fallas masivas con los nodos integrantes del GPRS
+GSM / WCDMA
+Con base a
+Backbone (SGSN, GGSN, WAPGW, Firewall).
+tiempos de
+Nivel IV
+escalación de O&M
+Dar solución a los reportes del área de CoR, cuando se
+-Proveedor
+tengan fallas con el/los nodos relacionados con el servicio
+Contacto: A través de
+pertenecientes al proveedor escalado.
+COR
+Dar solución a los reportes del área de CoR, cuando se
+tengan fallas masivas con el servicio.
+NOTA:
+Para revisión de:
+Clasificación de Incidencias.
+Criterios/Lineamientos para la notificación de mantenimientos o fallas.
+Escalación de Problemas/Fallas con la exportación de Información
+Amdocs- Telcel DwH.
+Favor de hacer referencia al documento "ANExo A, Acuerdo de Trabajo para
+Brindar Soporte al servicio Portal WAP Ideas Telcel".
+Para revisión de Tipificación de Fallas revisar el documento"Tipificación de
+Fallas Portal WAP Ideas Telcel.pdf"
+*l se consideran 7 dias previo analisis completo del area de soporte
+Usvarios, en dende indiqven problema y solución sugerida.
+Elaboró: José Héctor López Gómez
+Revisó: Lorenzo Caballero Rosas
+Gerencia de Administración de Nuevos Proyectos SVA
+
+=== VISION (moondream) ===
+- Si hay TABLAS: lista cada fila con sus encabezados de columna.   Formato: 'Columna1: Valor1. Columna2: Valor2.' para cada fila.
+- Si hay DIAGRAMAS DE FLUJO: describe cada nivel, los actores   involucrados y las conexiones entre ellos.

@@ -1,0 +1,16 @@
+{
+  "label": "Table 1 from WLA_Mensajeria Corporativa_Final.pdf, page 2",
+  "table_index": 1,
+  "page_number": 2,
+  "source_file": "WLA_Mensajeria Corporativa_Final.pdf",
+  "source": "pdfplumber",
+  "row_count": 6,
+  "col_count": 4,
+  "headers": [
+    "Version",
+    "Fecha",
+    "Seccion Afectada",
+    "ResDonsable"
+  ],
+  "element_id": "644d3f81-c724-44d0-ab96-bda24ca0553c"
+}

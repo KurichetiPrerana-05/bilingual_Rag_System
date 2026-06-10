@@ -1,0 +1,73 @@
+=== OCR (PaddleOCR) ===
+Acuerdo de Trabajo para brindar soporte al
+Página
+thtelcel
+servicio
+12 de 14
+Activación para PyME's y Portal VPN
+Fecha de
+Elaboración
+para el Usuario Final
+"Red Privada Telcel"
+Versión: [1.3]
+[7-Nov-2011]
+Tiempo de
+Actividades
+Responsable
+Respuesta
+Tercer
+Recibir y atender los reportes del área de Costumer Care, debido a
+Nivel
+fallas/ errores en el cobro del servicio.
+No se realiza análisis de detalle de llamada.
+Contacto:
+Atender y solucionar dichos reportes con ayuda de las herramientas
+Ext. 3328
+y documentos con que cuenten para dichos sistemas.
+Las fallas masivas se atenderán conforme al escalamiento
+administrativo, notificando a las áreas de soporte de los primeros
+niveles para realizar la difusión de la problemática y evitar
+saturación en reportes del servicio.
+Escalar las fallas, en caso de ser necesario, al proveedor
+correspondiente o a Ingeniería de Prepago, según sea el caso.
+R&R / Mediación
+Recibir y atender reportes escalados de Soporte a Usuarios,
+relacionados con Facturación y cobros del servicio para usuarios VPN
+7 días
+Puros.
+Tercer
+(Solución,
+previo análisis
+Nivel
+de impactos)
+En caso de problemas con tarifas del servicio, hacer el
+escalamiento correspondiente a COR.
+Contacto: A través de
+CA Service Desk
+Soporte Sistemas
+Corporativos
+Recibir y atender los reportes de falla de configuraciones en las
+Tercer
+funcionalidades a través de Portal de Administración de Red Privada
+48 hrs.
+Nivel
+Telcel (RPT), fallas de acceso y disponibilidad del Portal.
+Contacto:
+CA Service Desk
+Sistemas de
+Aprovisionamiento
+Recibir y atender reportes escalados de Help Desk de Informática o
+Tercer
+de Soporte a Usuarios Suspend GSM, relacionados con el
+24 hrs.
+Nivel
+aprovisionamiento del servicio y dependiendo el tipo de falla aplicar
+la acción definida en el Decálogo de Errores correspondiente.
+Contacto:
+CA Service Desk
+Elaboró: Grisell Palazuelos Mendoza
+Revisó: J. Gerardo García Cortés
+Gerencia: Administración de Nuevos Proyectos de Servicios de Valor Agregado
+
+=== VISION (moondream) ===
+- Si hay TABLAS: lista cada fila con sus encabezados de columna.   Formato: 'Columna1: Valor1. Columna2: Valor2.' para cada fila.

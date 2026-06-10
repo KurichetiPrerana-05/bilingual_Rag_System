@@ -1,0 +1,77 @@
+=== OCR (PaddleOCR) ===
+thtelcel
+Acuerdo de Trabajo para brindar soporte al
+"Portal WAP Ideas Telcel"
+Fecha de Elaboración
+20 - Septiembre- 2010
+OBJETIVO
+El propósito del presente documento es definir los alcances y actividades que
+tendrán cada una de las áreas involucradas en el proyecto "Portal WAP Ideas Telcel".
+ALCANCE
+Establecer el flujo de soporte y tiempos de respuesta para el servicio Portal
+WAP Ideas Telcel.
+PROCESO DE SOPORTE.
+El proceso de soporte para el servicio "Portal WAP Ideas Telcel" se divide en dos
+flujos, uno para problemas reportados por el usuario final del servicio, y otro para
+problemas reportados por el proveedor (Amdocs).
+El siguiente diagrama muestra el Proceso de Soporte, acordado por las áreas
+involucradas en el servicio, para la atención a quejas que podría reportar un usuario
+del servicio:
+Flujo de Soporte
+Primer Nivel
+Segundo Nivel
+1
+SISTEMAS
+> TELEFONICO
+USUARIO
+REGIONALES
+>CAC's
+R1-8
+USUARIO
+2
+> MINISWITCH
+CORPORATIVO
+R9
+3
+EJECUTIVO DE
+ASESORES DE
+CUENTA
+DATOS
+AGREGADORES
+4
+>HELP DESK
+DE DATOS
+PROVEEDORES
+Figura 1 Flujo de Soporte Portal WAP Ideas Telcel
+Elaboró: José Héctor López Gómez
+Gerencia de Administración de Nuevos Proyectos SVA
+
+Página
+servicio
+3 de 14
+Versión: 2.0
+Tercer Nivel
+Cuarto Nivel
+5
+SOPORTEA
+R&R/
+USUARIOS
+MEDIACIÓN
+O&M
+6
+PROVEEDOR
+COSTUMER
+COR
+INFRAESTRUCTURA
+CARE
+PLATAFORMAS
+7
+SPEEDY MÓVIL
+AMDOCS
+7
+Revisó: Lorenzo Caballero Rosas
+am
+
+=== VISION (moondream) ===
+- Si hay TABLAS: lista cada fila con sus encabezados de columna.   Formato: 'Columna1: Valor1. Columna2: Valor2.' para cada fila.
+- Si hay DIAGRAMAS DE FLUJO: describe cada nivel, los actores   involucrados y las conexiones entre ellos.

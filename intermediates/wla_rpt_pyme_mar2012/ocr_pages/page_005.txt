@@ -1,0 +1,57 @@
+=== OCR (PaddleOCR) ===
+Acuerdo de Trabajo para brindar soporte al
+Página
+thtelcel
+servicio
+5 de 14
+Activación para PyME's y Portal VPN
+Fecha de Elaboración
+para el Usuario Final
+"Red Privada Telcel"
+Versión: [1.3]
+[7-Nov-2011]
+DESCRIPCIÓN DEL TIPO DE INCIDENCIAS / FALLAS A ESCALAR
+1. Fallas relacionadas al Servicio IVR (Marcación *VPN *876).
+Fallas enlaactivación /configuración/consultadeDesvíosfrecuentesy/o
+especiales a través del IVR.
+Fallas en la configuración / consulta de la Lista de números personales a través
+del IVR.
+Fallas en consulta del estatus de Roaming Internacional a través del IVR(Dato
+informativo para el usuario a fin de validar si tiene el servicio bloqueado o
+desbloqueado).
+Fallas de acceso a la marcación*VPN.
+Falla en el Flujo del IVR (accede a la marcación pero el menú presenta
+problemas).
+Fallas en el servicio debido a configuraciones previamente realizadas por medio
+del IVR (desvíos / lista números personales).
+Fallas relacionadas al Portal de Administración Red Privada Telcel.
+Fallas de acceso al Portal (Lentitud o servicio no disponible).
+Fallas en la generación o contenido de los Reportes de la Red Privada a través
+del Portal.
+Fallas en el Registro de usuarios o recuperación de contraseña.
+Fallas en las configuraciones de servicios por medio del Portal (Desvíos /
+Frecuentes Personales / Frecuentes Empresa / Marcación corta / Restricción de
+servicios Cost Control / Control de llamadas salientes y entrantes).
+3.Fallas en la activación y/o Servicio Red Privada Telcel.
+Fallas en el Flujo de Activación del Plan / Productos asociados al Servicio RPT.
+Fallas en el Servicio (La línea no hace /no recibe llamadas).
+Fallas en el cobro y tasación del Servicio Red Privada Telcel.
+Fallas en los cobros / facturación de líneas que cuentan con el servicio de RPT
+activo.
+Fallas en el Detalle de Llamadas de las líneas con Control de Costos.
+TIPIFICACIÓN EN SERVICE DESK
+Categoria
+Red Privada Telcel - PyME.*VPN (*876).El servicio no está disponible
+Red Privada Telcel - PyME.*VPN (*876).No se completa llamada
+Red Privada Telcel - PyME.Cost Control.Cobros indebidos en servicio de datos
+Red Privada Telcel - PyME.Cost Control.Linea sin abono mensual
+Red Privada Telcel - PyME.Cost Control.Movimientos pendientes en MIXQH
+Red Privada Telcel - PyME.Cost Control.Movimientos pendientes en SWRQH
+Red Privada Telcel - PyME.Cost Control.No hace y no recibe llamadas
+Red Privada Telcel - PyME.Cost Control.No puede navegar por GPRS
+Elaboró: Grisell Palazuelos Mendoza
+Revisó: J. Gerardo García Cortés
+Gerencia: Administración de Nuevos Proyectos de Servicios de Valor Agregado
+
+=== VISION (moondream) ===
+1. Describe the content of each column in a clear and concise manner. 2. Include all relevant information about the topic or subject matter. 3. Use simple language that is easy to understand for a wide audience. 4. Organize the content in a logical order, starting with an introduction, followed by the main points, and ending with a conclusion or summary. 5. Proofread the document carefully before finalizing it. 6. Ensure consistency in font size, spacing, and layout throughout the document. 7. Use headings and subheadings to break down complex information into smaller, more manageable sections. 8. Include any relevant images, charts, or graphs that support the content. 9. Proofread the document multiple times for errors before finalizing it. 10. Review the document with a colleague or supervisor to ensure accuracy and consistency in content and style.

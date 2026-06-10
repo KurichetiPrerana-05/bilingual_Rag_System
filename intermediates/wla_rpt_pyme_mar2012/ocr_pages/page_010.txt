@@ -1,0 +1,77 @@
+=== OCR (PaddleOCR) ===
+Acuerdo de Trabajo para brindar soporte al
+Página
+servicio
+htelcel
+10 de 14
+Activación para PyME's y Portal VPN
+Elaboración
+Fecha de
+para el Usuario Final
+Versión: [1.3]
+"Red Privada Telcel"
+[7-Nov-2011]
+Tiempo de
+Actividades
+Responsable
+Respuesta
+Fallas en configuración y funcionalidad:
+Funcionalidad como; No hace yNo recibe llamadas, no
+navega, no permite servicios adicionales, etc.
+Revisar estatus general de la línea y configuración de restricciones
+de llamadas y/o servicios en el Portal de Administración Red Privada
+Telcel.
+Revisar si los servicios reportados están incluidos en el Plan
+contratado de acuerdo a la definición comercial en Boletín /Tabla de
+Planes/Productos.
+Configuración desde Portal de Administración Red Privada
+Atención a clientes
+Telcel:
+Revisarla correcta configuracion de las funcionalidades del servicio
+Primer
+VPN de acuerdo a lo solicitado por el cliente final, en caso que se
+Nivel
+En Línea
+trate de error en la configuración de funcionalidades deVPNapoyar
+en la correcta configuración de servicios. (Para mayor referencia
+Contacto: *111 / CAC
+consultar Manual de Perfil Soporte disponible en el Portal de
+Administración Red Privada Telcel).
+Configuración desde IVR de VPN (marcación *876):
+Revisar las correctas configuraciones en el Portal de Administración
+Red Privada y en caso de requerirse escalar al siguiente nivel.
+En caso de que las configuraciones no se puedancompletar o se
+obtenga un código de error desde alguno de los medios de
+configuración(Portal o IVR), escalar vía service desk conel Código
+de Error o Mensaje específico, previo a la validación del chechlist
+(Anexo 2).
+Recibir y atender los reportes de Atención a clientes R1 - 9 (*111 y
+Help Desk
+CAC's) de acuerdo al Folio de Service Desk generado.
+Informática
+24 a 48 hrs.
+Validar la funcionalidad del servicio y aplicar solución a la falla en
+caso de contar con las herramientas necesarias para VPN PYME
+Segundo
+Postpago y Cost Control.
+Nivel
+Documentar y escalar las fallas no resueltas y problemas referentes
+Contacto:
+al servicio al siguiente nivel de escalamiento.
+Notificar al usuario y/ o Área de soporte que escalo la incidencia
+CA Service Desk
+sobre la resolución de la misma.
+Validación y seguimiento de resolución después de escalamiento
+hasta su cierre.
+Problemas en aprovisionamiento del servicio VPN:
+Escalar fallas para aprovisionamiento de movimientos generados
+al Switch en Mobile 2000 al área de Soporte a Usuarios Suspend
+GSM o al área deSistema de Aprovisionamiento oCostumer
+Care dependiendo el tipo de fallade acuerdo al Decálogo de
+Fallas de Soporte correspondiente.
+Revisó: J. Gerardo García Cortés
+Elaboró: Grisell Palazuelos Mendoza
+Gerencia: Administración de Nuevos Proyectos de Servicios de Valor Agregado
+
+=== VISION (moondream) ===
+- Si hay TABLAS: lista cada fila con sus encabezados de columna.   Formato: 'Columna1: Valor1. Columna2: Valor2.' para cada fila.

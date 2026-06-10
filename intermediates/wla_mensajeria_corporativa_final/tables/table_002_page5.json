@@ -1,0 +1,13 @@
+{
+  "label": "Table 2 from WLA_Mensajeria Corporativa_Final.pdf, page 5",
+  "table_index": 2,
+  "page_number": 5,
+  "source_file": "WLA_Mensajeria Corporativa_Final.pdf",
+  "source": "pdfplumber",
+  "row_count": 5,
+  "col_count": 1,
+  "headers": [
+    "2. Verificar que lafalla en el envlo y recepcion en 105 mensajes no\nse debe a que el numero destino/remitente se encuentra en la\nlista negra de la companla."
+  ],
+  "element_id": "c2f946ab-da21-412f-8d45-87c31b430f6e"
+}

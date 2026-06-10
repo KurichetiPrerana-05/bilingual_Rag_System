@@ -1,0 +1,48 @@
+=== OCR (PaddleOCR) ===
+Acuerdo de Trabajo para brindar soporte al
+telcel
+servicio
+Página
+3 de 14
+Activación para PyME's y Portal VPN
+Fecha de Elaboración
+para el Usuario Final
+"Red Privada Telcel"
+[7-Nov-2011]
+Versión: [1.3]
+OBJETIVO
+Establecer el acuerdo de nivel de soporte para el servicio Activación para PyME's y
+Portal VPN para el Usuario Final "Red Privada Telcel".
+ALCANCE
+Establecer el flujo de soporte y tiempos de respuesta para el servicio Activación para
+PyME's y Portal VPN para el Usuario Final "Red Privada Telcel".
+ÁREAS INVOLUCRADAS
+Subdirección de Servicio a clientes
+Gerencia de Servicio a clientes Telefónico.
+o
+o
+Gerencias de Servicio a clientes.
+Dirección de informática.
+Subdirección de Desarrollo deSoftware
+Gerencia de Sistemas de Activaciones
+Gerencia de Desarrollo de Sistemas
+Gerencia de Soporte y Administración Mobile 2000
+Subdirección de Operaciones
+Gerencia de O&M Centro de Operación RED
+Subdirección de Aseguramiento de Ingresos y Control
+Gerencia de Aseguramiento de Ingresos
+DESCRIPCIÓN DEL SERVICIO
+El servicio de Activación para PYMEs "Red Privada Telcel" permite la construcción de redes privadas
+entre líneas celulares con beneficio de llamadas gratis entre miembros del grupo así como diversas
+funcionalidades (Marcaciones Cortas, Control de Llamadas, Restricción de Servicios para usuarios
+Cost Control, Desvío de Llamadas, Números Frecuentes para la Empresa y Números Frecuentes
+Personales). Este servicio cuenta con las herramientas (IVR de VPN y Portal de Usuario Final) que le
+permiten al usuario final configurar, controlar y administrar la comunicación de voz y datos de su red
+privada.
+PROCESO
+En los siguientes Diagramas de flujo se describe el Proceso de Soporte para la atención
+defallas y definición de niveles de soporte.
+Elaboró: Grisell Palazuelos Mendoza
+Revisó: J. Gerardo García Cortés
+Gerencia: Administración de Nuevos Proyectos de Servicios de Valor Agregado
+Be

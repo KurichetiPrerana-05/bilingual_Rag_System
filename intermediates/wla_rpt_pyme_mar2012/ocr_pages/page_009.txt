@@ -1,0 +1,58 @@
+=== OCR (PaddleOCR) ===
+Acuerdo de Trabajo para brindar soporte al
+Página
+telcel
+servicio
+9 de 14
+Activación para PyME's y Portal VPN
+Fecha de Elaboración
+para el Usuario Final
+Red Privada Telcel"
+Versión: [1.3]
+[7-Nov-2011]
+Tiempo de
+Actividades
+Responsable
+Respuesta
+Fallas en Facturación / Tasación
+En caso de reportes por cobros erróneos entre líneas de la
+misma red VPN,Cost Control (CC), sus Invitados Empresa o sus
+Invitados Personales, validar:
+Cobro de consumos de acuerdo a definición comercial del
+(Tablas de Planes/Productos) así como la
+Plan
+configuración de invitados en el Portal de Administración
+Red Privada Telcel.
+Para líneas VPN CC la validación del Detalle de Llamadas
+se deberá ingresar en el sistema formato único como
+línea Pospago en Consulta Teléfono/OTRASPANTALLASy
+seleccionar la pestaña de VPNCC.
+Atención a clientes
+Escalación:
+Para VPN Puras se escalará vía Service Desk previo a la
+Primer
+validación del checklist (Anexo 1)
+Nivel
+Para VPN Cost Control se escalará vía CDP a Custome Care
+En Línea
+por miniswitch/cyberkids previo a la validación del checklist
+(Anexo 1)*.
+Contacto: *111 / CAC
+*NOTA (R9):Mesa de control de CAC (R9)debe enviar checklist
+(Anexo 1) vía correo electrónico a miniswitch.
+NOTA (R9): Las aclaraciones de saldo no son atendidas por
+Telefónico, se remiten a los Centros de Atención a Clientes.
+Fallas en Abonos de Saldo por activación o renta:
+Revisar el correcto abono de saldo por activación o renta
+mensual de las líneas reportadas, en la pantalla de Formato
+único (Integrador) en SIAP GSM. En caso de que no se haya
+abonado el saldo correctamente, generar un Folio de Service
+Desk con la pantalla como evidencia (En Formato Único se
+consulta el teléfono como Prepago yel Dato se valida en la
+pantalla principal).
+Elaboró: Grisell Palazuelos Mendoza
+Revisó: J. Gerardo García Cortés
+Gerencia: Administración de Nuevos Proyectos de Servicios de Valor Agregado
+
+=== VISION (moondream) ===
+- Si hay TABLAS: lista cada fila con sus encabezados de columna.   Formato: 'Columna1: Valor1. Columna2: Valor2.' para cada fila.

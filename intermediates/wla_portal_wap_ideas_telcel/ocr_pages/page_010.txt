@@ -1,0 +1,86 @@
+=== OCR (PaddleOCR) ===
+htelcel
+Acuerdo de Trabajo para brindar soporte al
+Fecha de Elaboración
+Portal WAP Ideas Telcel"
+20 - Septiembre-
+2010
+Responsable
+Actividades
+Atender los reportes del 2º nivel de Soporte, relacionados
+con la entrega de Contenidos (entrega de contenido
+erróneo, contenido defectuoso, contenido no compatible con
+la terminal) para usuarios
+Prepago
+Postpago
+Mixtos
+Corporativos
+En caso de ser necesario, realizar la escalación
+correspondiente a Amdocs.
+Atender y solucionar los reportes del 2° y 3° Nivel de
+Soporte, relacionados con Cobros Erróneos de Contenidos
+para Usuarios:
+Prepago
+Speedy Móvil
+Postpago
+Nivel III
+Mixtos
+Corporativos
+En caso de ser necesario, realizar la escalación
+Problemas Masivos/
+correspondiente a Amdocs.
+Cobros/ Fallas
+Call Center
+Atender los reportes del 2° nivel de Soporte, relacionados
+(55) 55849861
+con fallas masivas en el servicio
+Acceso al portal
+Acceso a Links de Proveedores Externos/
+Agregadores
+Problemas con
+•Comunicación Telcel-Amdocs
+Contenidos
+En caso de ser necesario, realizar la escalación
+inventarioamx@speedy
+correspondiente a Amdocs.
+.com
+Identificar la fuente de los problemas:
+Proveedor de servicio (Amdocs)
+Proveedor de VPN (Telcel, Amdocs)
+Infraestructura local (Telcel)
+Escalar, si fuera necesario, las fallas de acuerdo a la
+fuente identificada, Speedy Móvil envía correo a
+cc@mail.telcel.com para iniciar proceso de atención de fálla.
+Y en caso de afectación crítica hablar al Jefe COR en turno.
+Recibir los reportes de los Proveedores de Contenido que
+tengan problemas con el proceso administrativo (Ingestión
+de Contenidos, Reportes, Acceso a la plataforma y realizar la
+escalación a Amdocs.
+Elaboró: José Héctor López Gómez
+Gerencia de Administración de Nuevos Proyectos SVA
+
+Página
+servicio
+10 de 14
+Versión: 2.0
+Tiempo de
+Respuesta
+5 Días Hábiles
+(Solución)
+Afectación general
+48 hrs hábiles
+Afectación parcial
+2 semanas
+Disponibilidad
+portal a nivel
+masivo
+4hrs
+Otros problemas
+2 semanas
+1 hora
+48hrs hábiles
+Revisó: Lorenzo Caballero Rosas
+am
+
+=== VISION (moondream) ===
+- Si hay TABLAS: lista cada fila con sus encabezados de columna.   Formato: 'Columna1: Valor1. Columna2: Valor2.' para cada fila.

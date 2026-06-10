@@ -1,0 +1,21 @@
+"2. Verificar que lafalla en el envlo y recepcion en 105 mensajes no
+se debe a que el numero destino/remitente se encuentra en la
+lista negra de la companla."
+"3. Verificar que la falla en el envlo y recepcion en 105 mensajes no
+se debe a que el numero destino/remitente no se encuentra
+aprovisionado en la Lista de Facturacion Especial de la Companla."
+"4. Verificar que 105 datos de la compania como son el cicio de
+facturacion, numero de mensajes contratados y si tiene activada
+la opcion que Ie permite exceder 105 mensajes contenidos en su
+plan para discriminar que la falla en el envlo se deba alas razones
+anteriormente mencionadas."
+"5. Verificar 105 datos de URLde acceso, usuario de la companla y
+contrasena (reseteo de la misma) en caso de que el usuario
+presente problemas de acceso a su interfaz web."
+"6. Verificar 105 datos de las IP's autorizadas para el acceso a la
+interfaz web2mobile y para el envlo de mail2mobile en caso de
+que el usuario presente problemas con estas interfaces."
+"7. Reportar al siguiente nivel de escalacion:
+• Si se detectan problemas de funcionalidad del servicio que
+no hayan sido resueltos con las acciones antes
+mencionadas."

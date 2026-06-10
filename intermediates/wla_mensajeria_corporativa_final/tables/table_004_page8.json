@@ -1,0 +1,15 @@
+{
+  "label": "Table 4 from WLA_Mensajeria Corporativa_Final.pdf, page 8",
+  "table_index": 4,
+  "page_number": 8,
+  "source_file": "WLA_Mensajeria Corporativa_Final.pdf",
+  "source": "pdfplumber",
+  "row_count": 1,
+  "col_count": 3,
+  "headers": [
+    "Fecha\nmodificacion",
+    "Seccion Afectada",
+    "Solicitante"
+  ],
+  "element_id": "086e442f-f572-4b3e-a8bd-cb3ee4e3f67d"
+}

@@ -1,0 +1,60 @@
+=== OCR (PaddleOCR) ===
+telcel
+Acuerdo de Trabajo para brindar soporte al
+Página
+servicio
+4 de 14
+Fecha de Elaboración
+"Portal WAP Ideas Telcel"
+20 - Septiembre- 2010
+Versión: 2.0
+FLUJOS DE SOPORTE
+1. Reporte de fallas de Facturación en líneas Postpago R1-8
+2. Reporte de fallas de:
+Tasación en líneas Prepago R9.
+o
+Problemas con el servicio para usuarios masivos.
+3. Reporte de fallas de:
+o
+Facturación en líneas Postpago R1-8.
+Tasación en líneas Prepago R1-8.
+oProblemas con el servicio para usuarios masivos.
+4. Reporte de Fallas masivas en el Servicio por:
+Usuarios Corporativos.
+O
+Miniswitch (R9)/ Asesores deDatos (R1-8).
+o
+Fallas de Acceso a Links de Sitios de Agregadores.
+5. Reporte de Fallas de Facturación en el Servicio de:
+Usuarios Corporativos/ Ejecutivos de Cuenta.
+o
+Atención a Clientes Telefónico (R9).
+O
+Atención a Clientes Personalizado (R9).
+O
+Sistemas Regionales (R1-8).
+Asesores de Datos (R1-8).
+6. Reporte de fallas de:
+Tasación en líneas Prepago R1-8.
+Problemas con el servicio para usuarios masivos.
+O
+Problemas específicos con nodos internos de la Red de Telcel.
+O
+Problemas de Comunicación Telcel - AMDOCS
+7. Reporte de fallas de:
+Cobro/ Tasación errónea para usuarios Prepago, Postpago, Mixtos y
+Corporativos, atribuibles a Amdocs.
+O
+Problemas con el servicio para usuarios masivos.
+O
+Problemas específicos con nodos/ Módulos internos de Amdocs.
+O
+Problemas de Comunicación AMDOCS-Telcel.
+Problemas relacionados con el acceso y carga de contenido a/en Ámdocs
+por parte delproveedor.
+Elaboró: José Héctor López Gómez
+Revisó: Lorenzo Caballero Rosas
+Gerencia de Administración de Nuevos Proyectos SVA
+
+=== VISION (moondream) ===
+1. Report on the progress of the project. 2. Report on the progress of the project. 3. Report on the progress of the project. 4. Report on the progress of the project. 5. Report on the progress of the project. 6. Report on the progress of the project. 7. Report on the progress of the project. 8. Report on the progress of the project. 9. Report on the progress of the project. 10. Report on the progress of the project. 11. Report on the progress of the project. 12. Report on the progress of the project. 13. Report on the progress of the project. 14. Report on the progress of the project. 15. Report on the progress of the project. 16. Report on the progress of the project. 17. Report on the progress of the project. 18. Report on the progress of the project. 19. Report on the progress of the project. 20. Report on the progress of the project. 21. Report on the progress of the project. 22. Report on the progress of the project. 23. Report on the progress of the project. 24. Report on the progress of the project. 25. Report on the progress of the project. 26. Report on the progress of the project. 27. Report on the progress of the project. 28. Report on the progress of the project. 29. Report on the progress of the project. 30. Report on the progress of the project.

@@ -1,0 +1,65 @@
+=== OCR (PaddleOCR) ===
+htelcel
+Acuerdo de Trabajo para brindar soporte al
+Página
+servicio
+8 de 14
+Fecha de Elaboración
+"Portal WAP Ideas Telcel"
+20 - Septiembre- 2010
+Versión: 2.0
+Responsable
+Tiempo de
+Actividades
+Respuesta
+Recibir los reportes escalados de:
+Usuarios Corporativos/ Ejecutivos de Cuenta.
+MiniSwitch R9
+Asesores de Datos R1-8
+Agregadores
+Sobre problemas de:
+Perdida de nodos, caída de nodos.
+Fallas de las plataformas de Telcel: GPRS, SRS, SIA,
+WAPGW, NPS, SMSC, MAR, Redes, VPN Connectivity,
+etc.
+Fallas de comunicación y transmisión de datos.
+En
+caso de ser necesario, realizar la escalación
+correspondiente a Costumer Care.
+Realizar las validaciones correspondientes según el
+Help Desk de Datos
+problema, en caso de que la solución no esté al alcance,
+realizar la escalación al nivel correspondiente.
+Nivel II
+En caso de presentarse fallas en la entrega de Contenidos
+Atención telefónica o a
+vendidos dentro del Portal (entrega de contenido erróneo,
+través de correo
+30 minutos.
+contenido defectuoso, contenido no compatible con la
+electrónico, horario de
+(Diagnostico)
+terminal) para usuarios corporativos/ ProblemaMasivo
+7x24.
+hacer la escalación hacia Speedy Móvil.
+(55) 2581-3347
+Email:
+En caso de ser necesario, coordinar audio conferencias
+helpdesk datos@telcel.com
+(O&M / Proveedores) a fin de dar seguimiento /solución a
+fallas reportadas y que no hayan sido resueltas en el
+tiempo establecido.
+Recibir los reportes de los Agregadores que tengan
+problemas con la configuración de la plataforma como:
+Fallas en Links a Sitios de Agregadores.
+Fallas masiva en compras o suscripciones.
+En caso de que la solución no esté al alcance, realizar la
+escalación a Costumer Care.
+Retroalimentación
+y seguimiento
+de los reportes
+levantados.
+Elaboró: José Héctor López Gómez
+Revisó: Lorenzo Caballero Rosas
+Gerencia de Administración de Nuevos Proyectos SVA
+X

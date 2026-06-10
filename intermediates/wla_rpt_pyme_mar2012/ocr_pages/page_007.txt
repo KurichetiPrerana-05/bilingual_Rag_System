@@ -1,0 +1,80 @@
+=== OCR (PaddleOCR) ===
+Acuerdo de Trabajo para brindar soporte al
+htelcel
+Activación para PyME's y Portal VPN
+Fecha de Elaboración
+para el Usuario Final
+"Red Privada Telcel"
+[7-Nov-2011]
+MATRIZ DE RESPONSABILIDADES
+Al firmar el presente documento, las áreas involucradas en la cadena de soporte
+para el servicio Activación para PYMEs "Red Privada Telcel", se comprometen a:
+Cumplir con las actividades que tienen asignadas, que semuestran enseguida
+Realizar la difusión de este acuerdo al personal que representan.
+Responsable
+Recibir los reportes de los usuarios masivos que tengan problemas
+Atención a clientes
+con el servicio (Problemas de Aprovisionamiento/ Activación,
+Facturación / Tasación, Configuración y Funcionalidad).
+Primer
+Nivel
+Realizar las siguientes validaciones:
+Plan y productos validos de VPN en M2K (Referencia: Boletín
+/ Tabla de Planes/Productos).
+Contacto: *111 / CAC
+Categorías en HLR.
+Categoría
+OICK
+TICK
+DCF
+CFU
+SCHAR
+Validar en el portal de Administración de Red Privada TELCEL
+(RPT) que la línea esta dada de alta.
+Para líneas Cost Control:
+Validar en M2K pantalla MIXQH la generación del
+movimiento 21correspondiente al abono de saldo.
+Validar en formato único:
+o
+Abono de Saldo.
+-
+Service Offering (no debe de ser nulo).
+•
+Service Class 501.
+Considerar si tiene un producto de datos ilimitados
+o
+entonces el valor de SCHAR debe de ser 8.
+Nota: Las validaciones de categorías en el HLRse realizarán con el
+apoyo de Miniswitch/Cyberkids, en caso de requerirse en línea.
+En caso de que la solución no esté al alcance, realizar el
+escalamiento de la falla a Informática mediante Folio Service Desk
+previo a la validación del Checklist (Anexo 1).
+Elaboró: Grisell Palazuelos Mendoza
+Gerencia: Administración de Nuevos Proyectos de Servicios de Valor Agregado
+
+Página
+servicio
+7 de 14
+Versión: [1.3]
+Tiempo de
+Actividades
+Respuesta
+En Línea
+VPN
+VPN Pura
+Cost Control
+985
+985
+986
+986
+0
+0
+0
+0
+8
+4
+#
+Revisó: J. Gerardo García Cortés
+
+=== VISION (moondream) ===
+- Si hay TABLAS: lista cada fila con sus encabezados de columna.   Formato: 'Columna1: Valor1. Columna2: Valor2.' para cada fila.

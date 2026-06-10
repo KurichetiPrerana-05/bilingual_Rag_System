@@ -1,0 +1,50 @@
+=== OCR (PaddleOCR) ===
+Acuerdo de Trabajo para brindar soporte al
+telcel
+servicio
+Página
+Activación
+8 de 14
+para PyME's y Portal VPN
+Fecha de
+Elaboración
+para el Usuario Final
+[7-Nov-2011]
+"Red Privada Telcel"
+Versión: [1.3]
+Tiempo de
+Responsable
+Actividades
+Respuesta
+Nota Folios Service Desk: personal que genero el folio será el
+responsable de dar seguimiento al mismo hasta su conclusión y
+cierre.
+Nota CPD: Mesa de control del CAC (R9) que generó el reporte dará
+el seguimiento correspondiente.
+Problemas en aprovisionamiento del servicio VPN:
+Validación del estatus de la línea del usuario (Inactiva, sin saldo,
+zero balance 1y2, suspendida, con movimientos pendientes en
+el switch (Pantalla SWRQH, etc.).
+Revisar que el Plan y ProductosVPN en el sistema de activación
+M2k estén correctos, así como el aprovisionamiento y
+configuración en la Plataforma VPN (Portal de Administración Red
+Privada Telcel PYME).
+Casos de Cambio de Plan, considerar que el usuario debe
+reconfigurar todos sus servicios (Suspensiones  no debe
+desconfigurar, Cancelación  debe borrar todo).
+Revisar las categorías de la línea y aprovisionamiento en caso de
+requerirse se apoyará de miniswitch/cyberkids.
+En caso de que la solución no esté al alcance, realizar el
+escalamiento de la falla a Help Desk Informática mediante Folio
+Service Desk previo a la validación del Checklist (Anexo1).
+Escalar vía service desk los casos de fallas de disponibilidadde
+F1 para realizar activaciones.
+Escalar al área admon y control de activaciones fallas de
+disponibilidad de SISACT para realizar activaciones por la ruta de
+escalamiento habitual.
+Elaboró: Grisell Palazuelos Mendoza
+Revisó: J. Gerardo García Cortés
+Gerencia: Administración de Nuevos Proyectos de Servicios de Valor Agregado
+
+=== VISION (moondream) ===
+- Si hay TABLAS: lista cada fila con sus encabezados de columna.   Formato: 'Columna1: Valor1. Columna2: Valor2.' para cada fila.

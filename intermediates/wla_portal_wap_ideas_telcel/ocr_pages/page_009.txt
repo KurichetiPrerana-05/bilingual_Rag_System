@@ -1,0 +1,98 @@
+=== OCR (PaddleOCR) ===
+telcel
+Acuerdo de Trabajo para brindar soporte al
+Página
+servicio
+9 de 14
+Fecha de Elaboración
+"Portal WAP Ideas Telcel"
+20 - Septiembre- 2010
+Versión: 2.0
+Responsable
+Tiempo de
+Actividades
+Respuesta
+Recibir los problemas masivos escalados de:
+Miniswitch (R9), Asesores de Datos (R1-R8).
+Problemas de Tasación/ Cobros a Usuarios
+Prepago.
+Customer Care
+Soporte a Usuarios, R&R/ Mediación.
+(O&M)
+Problemas de Tasación/ Facturación a Usuarios
+Postpago.
+Nivel III
+Help Desk de Datos/ Speedy Móvil
+Perdida de nodos, caída de nodos.
+24 hrs.
+Atención telefónica o a
+Afectación masiva en el servicio.
+(Solución)
+través de correo
+Fallas de las plataformas de Telcel a nivel
+puntual:
+electrónico, horario de
+GPRS, SRS, SIA, WAPGW, NPS
+7x24.
+Connector, SMSC, MAR, MMSC, Redes, VPN
+Connectivity, etc.
+(55) 2581-3328
+cc@mail.telcel.com
+Fallas de comunicación y transmisión de datos.
+Escalar las fallas, en caso de ser necesario, al área de COR
+correspondiente
+con
+base en el acuerdo de trabajo
+preestablecido entre las áreas.
+Soporte a Usuarios
+Recibe las llamadas del primer y segundo nivel de soporte
+para resolver problemas de Facturación a nivel nacional con
+usuarios Postpago, Mixtos y Corporativos.
+30 días
+Nivel III
+En caso de ser necesario, hacer la escalación
+correspondiente a R&R/ Costumer Care.
+(Atención a
+Contacto: A través de
+Facturación)
+Retroalimentación y seguimiento de los reportes
+CA Sevice Desk
+levantados.
+Recibir y atender los reportes del área de Customer Care y
+Speedy Móvil, que tengan problemas con:
+Direccionamiento de URL en balanceadores de Ideas
+Telcel.
+Navegación o salida de APN.
+Perdida de gestión de cobro en SRS
+Fallas en Base de datos del SRS
+COR
+Obtención de perfil de usuarios de NPS Connector.
+Resolución de URL's en WAPGW
+Nivel III
+Envío/recepción de SMS vía los sistemas SMSGW,
+SMSCs, MAR/OMG
+(55) 25 81 46 33 a
+24 hrs.
+Recepción de configuración vía el sistema GXO.
+(55) 25 81 46 36
+Fallas en el concentrador de VPN para conexión
+(Solución)
+Telcel - Amdocs.
+(Preguntar por Jefe en
+Turno )
+Fallas en la red de datos Corporativa de Telçel y a
+jefesCOR@mail.telcel.com
+los elementos que la componen.
+Fallas de cobro de los servicios de las plataformas de
+Telcel y a los elementos que lo hacen factible.
+En caso de presentarse errores en cobros de contenidos/
+suscripciones de proveedores (Compras dentro delPortal
+WAP, No Agregadores) escalar con Speedy Móvil
+Escalar las fallas, en caso de ser necesario, al proveedor
+correspondiente con el SLA acordado.
+Elaboró: José Héctor López Gómez
+Revisó: Lorenzo Caballero Rosas
+Gerencia de Administración de Nuevos Proyectos SVA
+
+=== VISION (moondream) ===
+- Si hay TABLAS: lista cada fila con sus encabezados de columna.   Formato: 'Columna1: Valor1. Columna2: Valor2.' para cada fila.

@@ -1,0 +1,14 @@
+{
+  "label": "Table 3 from WLA_Mensajeria Corporativa_Final.pdf, page 7",
+  "table_index": 3,
+  "page_number": 7,
+  "source_file": "WLA_Mensajeria Corporativa_Final.pdf",
+  "source": "pdfplumber",
+  "row_count": 5,
+  "col_count": 2,
+  "headers": [
+    "Tiempo de\nResponsable Adividades\nRespuesta\n----------------------------\n1. Solucionar problemas propios de las aplicaciones de Mensajerfa\nCorporativa:\n- Web a Moviles\n- XMLa Moviles\n- Mail a Moviles Critico:\n- Moviles a Mail 2 hrs.\n- Acceso alas paginas Web (Funcionalidad, Estadisticas)\n- Perfiles de usuario (SuperAdmin, Administrador Telcel, Mayor:\nAdministrador de Compania, Usuario consultas Telcel, 4 hrs.\nOperador)\n- Listas BlancasI Negras I Facturacion Especial Menor:\n- Problemas de comunicacion hacia la interfaz Web de 12 hrs.\nMensajerfa Corporativa que utiliza la empresa (PME->\nTIAXA *Nota:Tiemposde\nInternet -> Interfaz Web de la Empresa)*\nrecuperaci6n\nCALLCENTER - Aprovisionamiento en LVY/o LRde sus empleados temporal conforme\naloscriteriosde\n- CDR'sde Facturacion servicio acordados\nNivel II - CDR'sde DWH enelSLAentre\nTelcel-TIAXA\n*Nota: Soloaplicaparafallasmasivas,esdecir,ningunaempresatiene\naccesoalainterfazWebdeMensajerfa,por10 tantocualquierotrocasose\ndeberarevisardirectamenteconlaempresa(Conexiones,Proveedorde\nRed,etc).\n2. Comunicar a HDDen caso de identificar fallas en el servicio\ncausadas por problemas propios de Telcel (Enlaces -Datos-, Enlinea\nConectividad, Facturacion, Aprovisionamiento, Portabilidad).\n3. Informar al area de Ingenierfa de SVATelcel cualquier\nintervencion a la plataforma con al menos 48 horas de 48 hrs.\nanticipacion, enviando el MOP(Caratula YPlande Actividades) antes de la\ncorrespondiente; Todas las actividades que afecten el servicio actividad\ndeberan realizarse en Ventanas de Mantenimiento.",
+    ""
+  ],
+  "element_id": "84a8e988-d786-498c-8d36-19c0b897ac44"
+}

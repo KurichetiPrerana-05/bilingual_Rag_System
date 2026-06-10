@@ -1,0 +1,84 @@
+=== OCR (PaddleOCR) ===
+Acuerdo de Trabajo para brindar soporte al
+Página
+servicio
+htecel
+11 de 14
+para PyME's y Portal VPN
+Activación
+Fecha de Elaboración
+para el Usuario Final
+Versión: [1.3]
+"Red Privada Telcel"
+[7-Nov-2011]
+Tiempo de
+Actividades
+Responsable
+Respuesta
+Fallas en configuración de funcionalidades:
+Desde Portal de Administración Red Privada Telcel:
+Recibir y atender los casos escalados por Atención a Clientes R1-9
+(*111 yCAC's) de fallas de funcionalidad del servicio VPNPYME de
+acuerdo a lo solicitado por el cliente final.
+Desde IVR de VPN (marcación *876):
+-Validar si el reporte levantado es problema de disponibilidaddel
+IVR, realizando pruebas con terminal de pruebas sila falla es
+reportada en R9, para falla de cualquier otra región se levantará CPD
+al Customare Care prevía validación de la liga del Web Service.
+-Revisar la liga del Web Service, en caso de que no esté disponible,
+escalar a Sistemas de Activaciones mediante asignación de Folio
+Service Desk.
+-En caso de que el Web Service si esté disponible, corroborar
+también la disponibilidad del IVR antes de levantar CPD aCostumer
+Care solicitando revisión a nivel de comunicación entre IVR vs Web
+Service.
+-Verificar estatus de movimientos en M2K (Código de errores en
+SAM).
+Soporte a Usuarios
+y Control a la
+Producción
+Fallas en Facturación / Tasación:
+Segundo
+Para usuarios VPN Puros (pospago) se deberá realizar el Reporte vía
+7 a 30 días.
+Service Desk con el llenado del Checklist correspondiente (Formato
+Nivel
+deTasación), mismo que se utiliza para postpago.
+Contacto:
+CA Service Desk
+Soporte a Usuarios
+y Suspend GSM
+Segundo
+Fallas en Abonos de Saldo por activación o renta:
+24 a 48 hrs.
+Nivel
+Reenvío o generación de movimiento de abono de saldo de acuerdo
+con el Service Desk reportado. Aplica para líneas Cost Control.
+Contacto:
+CA Service Desk
+Recibir, atender, solucionar o escalar los reportes de los usuarios
+que tengan problemas con el servicio y/o el aprovisionamiento de
+Customer Care
+VPN (cuando incluya los elementos de red), con ayuda de los
+(O&M)
+manuales proporcionados para dichos sistemas así como reportes de
+48 hrs.
+fallas en las nuevas funcionalidades,restricciones y desvíos previa
+(Solución)
+Tercer
+revisión de la configuración por parte de los Primeros Niveles de
+Nivel
+Soporte.
+Recibir, atender, solucionar o escalar los reportes de Abono de Saldo
+por Activación o Renta derivados por problemas de plataforma.
+Revisión de fallas de conectividad en cada uno de los nodos de la red
+0&M
+(MSC, BSC, MGw, SDPs, etc). Escalar al siguiente nivel las fallas que
+ill
+por su severidad así lo requieran.
+Revisó: J. Gerardo García Cortés
+Elaboró: Grisell Palazuelos Mendoza
+Gerencia: Administración de Nuevos Proyectos de Servicios de Valor Agregado
+
+=== VISION (moondream) ===
+- Si hay TABLAS: lista cada fila con sus encabezados de columna.   Formato: 'Columna1: Valor1. Columna2: Valor2.' para cada fila.

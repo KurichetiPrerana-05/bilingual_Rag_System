@@ -1,0 +1,40 @@
+=== OCR (PaddleOCR) ===
+Acuerdo de Trabajo para brindar soporte al
+Página
+htecel
+servicio
+6 de 14
+Activación para PyME's y Portal VPN
+Fecha de Elaboración
+para el Usuario Final
+"Red Privada Telcel"
+Versión: [1.3]
+[7-Nov-2011]
+Red Privada Telcel - PyME.Cost Control.No puede realizar llamadas
+Red Privada Telcel - PyME.Cost Control.No puede recibir llamadas
+Red Privada Telcel - PyME.Cost Control.Realiza y/o recibe llamadas OFFNET teniendo restricción de
+llamadas
+Red Privada Telcel - PyME.Cost Control.Sin desvío de llamada a BUZON
+Red Privada Telcel - PyME.Cost Control.Sin servicio de datos en Roaming Internacional
+Red Privada Telcel - PyME.Cost Control.Sin servicio de voz en Roaming Internacional
+Red Privada Telcel - PyME.Portal RPT Cliente.Bloqueo / Desbloqueo de restricciones
+Red Privada Telcel - PyME.Portal RPT Cliente.Falla en Alta/Baja de invitados Empresa y/o Personales
+Red Privada Telcel - PyME.Portal RPT Cliente.El Portal no está disponible
+Red Privada Telcel - PyME.Portal RPT Cliente.Línea No Visualizada
+Red Privada Telcel - PyME.RPT Pura.Movimientos pendientes en SWRQH
+Red Privada Telcel - PyME.RPT Pura.No hace y no recibe llamadas
+Red Privada Telcel - PyME.RPT Pura.No puede realizar llamadas
+Red Privada Telcel - PyME.RPT Pura.No puede recibir llamadas
+Red Privada Telcel - PyME.RPT Pura.Realiza y/o recibe llamadas OFFNET teniendo restricción de
+llamadas
+Red Privada Telcel - PyME.RPT Pura.Sin desvío de llamada a BUZON
+Red Privada Telcel - PyME.Monitor de Movimientos. No despliega información / No disponible
+Red Privada Telcel - PyME. F1. No despliega información / No disponible
+Red Privada Telcel - PyME. F1. No permite la activación.
+bojo de FT.
+TIPIFICACIONES EN REMEDY
+Categoría 1: SVA CORPORATIVO
+CategorÍa 2: RED PRIVADA CELULAR COST CONTROL
+Elaboró: Grisell Palazuelos Mendoza
+Revisó: J. Gerardo García Cortés
+Gerencia: Administración de Nuevos Proyectos de Servicios de Valor Agregado

@@ -1,0 +1,64 @@
+"Tiempo de
+Responsable Adividades
+Respuesta
+----------------------------
+1. Solucionar problemas propios de las aplicaciones de Mensajerfa
+Corporativa:
+- Web a Moviles
+- XMLa Moviles
+- Mail a Moviles Critico:
+- Moviles a Mail 2 hrs.
+- Acceso alas paginas Web (Funcionalidad, Estadisticas)
+- Perfiles de usuario (SuperAdmin, Administrador Telcel, Mayor:
+Administrador de Compania, Usuario consultas Telcel, 4 hrs.
+Operador)
+- Listas BlancasI Negras I Facturacion Especial Menor:
+- Problemas de comunicacion hacia la interfaz Web de 12 hrs.
+Mensajerfa Corporativa que utiliza la empresa (PME->
+TIAXA *Nota:Tiemposde
+Internet -> Interfaz Web de la Empresa)*
+recuperaci6n
+CALLCENTER - Aprovisionamiento en LVY/o LRde sus empleados temporal conforme
+aloscriteriosde
+- CDR'sde Facturacion servicio acordados
+Nivel II - CDR'sde DWH enelSLAentre
+Telcel-TIAXA
+*Nota: Soloaplicaparafallasmasivas,esdecir,ningunaempresatiene
+accesoalainterfazWebdeMensajerfa,por10 tantocualquierotrocasose
+deberarevisardirectamenteconlaempresa(Conexiones,Proveedorde
+Red,etc).
+2. Comunicar a HDDen caso de identificar fallas en el servicio
+causadas por problemas propios de Telcel (Enlaces -Datos-, Enlinea
+Conectividad, Facturacion, Aprovisionamiento, Portabilidad).
+3. Informar al area de Ingenierfa de SVATelcel cualquier
+intervencion a la plataforma con al menos 48 horas de 48 hrs.
+anticipacion, enviando el MOP(Caratula YPlande Actividades) antes de la
+correspondiente; Todas las actividades que afecten el servicio actividad
+deberan realizarse en Ventanas de Mantenimiento.",
+,Enlinea
+,"48 hrs.
+antes de la
+actividad"
+"Administrador
+1. Revisar la correcta definicion de parametros/configuraciones de
+Regional
+las Companfas Y/o Empleados por medio de la interfaz de
+Administracion Regional de la plataforma de MENSAJERIA
+Nivel II
+CORPORATIVA.",Enlinea
+"1. Recibir Yatender 105 reportes del area de HDD, suando se
+COR
+tengan fallas masivas con el servicio de MENSAJERIA
+SVA
+CORPORATIVAdebido a problemas en los nodos de Mensajerfa de
+(O&M)
+Telcel (SMS-C, SMS-GW).
+2. Escalar fallas, en caso de ser necesario, al proveedor del SMS-C
+Nivel III
+Y/o SMS-GW, segun sea el caso.","24 hrs.
+(Solucion)"
+"COR 1. Recibir Yatender 105 reportes del area de HDD, cuando se
+DATOS tengan fallas de conectividad en laVPNTelcel - TIAXA Mexico
+(O&M) (Datacenter Xertix).
+2. Escalar fallas, en caso de ser necesario, al proveedor del FW's
+Nivel III Y/o proveedores de infraestructura de Red LAN.",

@@ -1,0 +1,60 @@
+=== OCR (PaddleOCR) ===
+thtelcel
+Acuerdo de Trabajo para brindar soporte al
+Fecha de Elaboración
+"Portal WAP Ideas Telcel"
+20 - Septiembre- 2010
+INDICE:
+CONTROL DE CAMBIOS:
+OBJETIVO
+ALCANCE
+PROCESO DE SOPORTE.
+FLUJOS DE SOPORTE.
+...........................................................
+ACUERDO DE TRABAJO
+MATRIZ DE ESCALACIÓN
+FIRMAS
+CONTROL DE CAMBIOS:
+Sección(es)
+Rev
+Fecha
+Autor
+Afectada(s)
+1
+17/08
+Todas
+José Héctor López Gómez
+Proceso de Soporte
+2
+06/09
+José Héctor López Gómez
+Acuerdo de Trabajo
+Proceso de Soporte
+3
+22/09
+José Héctor López Gómez
+Acuerdo de Trabajo
+Elaboró: José Héctor López Gómez
+Gerencia de Administración de Nuevos Proyectos SVA
+
+Página
+servicio
+2 de 14
+Versión: 2.0
+2
+3
+3
+3
+.+
+. 5
+12
+14
+Comentarios
+Creación del documento.
+Se incluyen comentarios de las Áreas de Soporte.
+Se incluyen comentarios de las Áreas de Soporte/
+Speedy Móvil.
+Revisó: Lorenzo Caballero Rosas
+
+=== VISION (moondream) ===
+- Si hay TABLAS: lista cada fila con sus encabezados de columna.   Formato: 'Columna1: Valor1. Columna2: Valor2.' para cada fila.

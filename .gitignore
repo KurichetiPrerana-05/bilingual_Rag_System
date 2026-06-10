@@ -1,0 +1,37 @@
+# Create .gitignore and add common Python/RAG ignores
+cat > .gitignore << 'EOF'
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+venv/
+env/
+.env/
+.venv/
+
+# Environment variables (NEVER push API keys!)
+.env
+*.env
+
+# Vector DB / embeddings cache
+chroma_db/
+faiss_index/
+*.index
+*.pkl
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+EOF

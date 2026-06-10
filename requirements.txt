@@ -1,0 +1,74 @@
+# ── Core API ──────────────────────────────────────────────────
+fastapi
+uvicorn[standard]
+python-multipart
+pydantic
+
+# ── Vector DB ─────────────────────────────────────────────────
+qdrant-client
+
+# ── LangChain ─────────────────────────────────────────────────
+langchain
+langchain-core
+langchain-community
+langchain-huggingface
+langchain-qdrant
+langchain-groq
+langchain-text-splitters
+
+# ── Embeddings ────────────────────────────────────────────────
+sentence-transformers
+einops
+torch
+numpy
+
+# ── LLM ───────────────────────────────────────────────────────
+groq
+
+# ── PDF — native text ─────────────────────────────────────────
+pypdf
+pdfplumber
+
+# ── PDF — image extraction ────────────────────────────────────
+pdf2image
+pillow
+pymupdf                      # fitz — image bbox extraction
+
+# ── OCR — scanned pages ───────────────────────────────────────
+paddleocr
+paddlepaddle                 # CPU version; use paddlepaddle-gpu if you have a GPU
+
+# ── Retrieval ─────────────────────────────────────────────────
+rank-bm25                    # BM25 sparse retrieval
+
+# ── Reranking ─────────────────────────────────────────────────
+# sentence-transformers already covers CrossEncoder
+
+# ── Translation ───────────────────────────────────────────────
+googletrans==4.0.0rc1
+
+# ── Caching ───────────────────────────────────────────────────
+redis                        # optional — falls back to in-process LRU if not installed
+
+# ── Utilities ─────────────────────────────────────────────────
+requests
+tqdm
+tabulate                     # markdown table rendering (pandas fallback)
+
+# ── Optional: table markdown rendering ────────────────────────
+pandas
+
+# ══════════════════════════════════════════════════════════════
+# SYSTEM DEPENDENCIES  (install outside pip)
+#
+# Ollama  — local vision model server (moondream)
+#   https://ollama.com  →  ollama pull moondream
+#
+# Poppler — PDF → image renderer (required by pdf2image)
+#   Windows : https://github.com/oschwartz10612/poppler-windows
+#             set POPPLER_PATH in config.py
+#   Linux   : sudo apt-get install poppler-utils
+#   Mac     : brew install poppler
+#
+# PaddleOCR models download automatically on first run.
+# ══════════════════════════════════════════════════════════════

@@ -1,0 +1,71 @@
+=== OCR (PaddleOCR) ===
+ttelcel
+Acuerdo de Trabajo para brindar soporte al
+Página
+servicio
+5 de 14
+Fecha de Elaboración
+"Portal WAP Ideas Telcel"
+20 - Septiembre- 2010
+Versión: 2.0
+ACUERDO DE TRABAJO
+Al firmar el presente documento, las áreas involucradas en la cadena de soporte
+para "Portal WAP Ideas Telcel", se comprometen a:
+Cumplir con las actividades que tienen asignadas, que se muestran enseguida
+Realizar la difusión de este acuerdo al personal de cada área
+Matriz deResponsabilidades
+Responsable
+Tiempo de
+Actividades
+Respuesta
+Recibir y atender los reportes de los usuarios masivos y/o
+corporativos que tengan problemas con compras
+suscripciones de Proveedores de Contenidos, en caso de que
+la solución no esté al alcance, realizar la escalaciónal
+siguiente nivel.
+Recibir y atender los reportes de los usuarios masivos y/o
+corporativos que tengan problemas de navegación/acceso/
+despliegue de información dentro del portal, con una
+terminal
+en
+particular
+y
+realizar
+las
+acciones
+correspondientes, en caso de que la solución no esté al
+alcance, realizar la escalación al siguiente nivel.
+Validación del aprovisionamiento de categorías de servicios
+de navegación en línea del usuario.
+Atención a clientes
+Telefónico/ CAC's
+Acceder a la herramienta de Atención a Clientes
+En Línea
+correspondientes y realizar las siguientes funciones, de
+Nivel I
+acuerdo al problema reportado:
+Contacto: Postpago:
+*111 / 25813333
+Búsqueda de Usuarios.
+Consulta del Historial de Compra.
+Prepago: *264 /
+Validación de Productos Activos.
+25813344 (área
+Consulta del detalle de transacciones.
+metropolitana) y 01
+Consulta del Perfil del Usuario.
+800 710 56 87
+(Interior de la
+En caso de que la solución no esté al alcance, realizar la
+República)
+escalación al siguiente nivel.
+Consulta básica acerca del uso de la terminal.
+Validación del estatus de la línea del usuario (Inactiva, sin
+saldo, zero balance 1 y 2).
+Elaboró: José Héctor López Gómez
+Revisó: Lorenzo Caballero Rosas
+Gerencia de Administración de Nuevos Proyectos SVA
+U
+
+=== VISION (moondream) ===
+- Si hay TABLAS: lista cada fila con sus encabezados de columna.   Formato: 'Columna1: Valor1. Columna2: Valor2.' para cada fila.

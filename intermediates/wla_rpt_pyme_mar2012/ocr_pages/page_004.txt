@@ -1,0 +1,98 @@
+=== OCR (PaddleOCR) ===
+Acuerdo de Trabajo para brindar soporte al
+htelcel
+Activación para PyME's y Portal VPN
+Fecha de Elaboración
+para el Usuario Final
+"Red Privada Telcel"
+[7-Nov-2011]
+FLUJOS DE SOPORTE
+Flujo de Soporte General
+VPN activación para PyMES (Masivo)
+Primer Nivel
+Segundo Nivel
+> TELEFONICO
+((11)
+HELP DESK
+INFORMATICA
+SOPORTE A USUARIOS
+USUARIO
+Y CONTROL A LA
+Service
+PRODUCCIÓN
+Desk
+SOPORTE A USUARIOS
+> CAC
+Y SUSPEND GSM
+MINISWITCH R9 /
+CYBERKIDS R1-8
+Nota: Miniswitch/Cyberkids solo escalarían a Customer Care para RPT (VPN) CC
+Fluio de Soporte para Distribuidores Autorizados
+(Sólo aplica para Fallas en la Activación desde SISACT).
+VPN activación para PyMES (Masivo) FLUJO PARA DISTRIBUIDORES AUTORIZADOS
+Primer Nivel
+Segundo Nivel
+> SISACT
+HELP DESK
+R9
+INFORMATICA
+Service
+Desk
+SOPORTE A USUARIOS
+Fallas en
+DAT
+Y CONTROL A LA
+PRODUCCIÓN
+Activaciones
+> *555
+SOPORTE A USUARIOS
+Atención Especializada
+Y SUSPEND GSM
+para Distribuidores
+R1-8
+Elaboró: Grisell Palazuelos Mendoza
+Gerencia: Administración de Nuevos Proyectos de Servicios de Valor Agregado
+
+Página
+servicio
+4 de 14
+Versión: [1.3]
+Tercer Nivel
+Cuarto Nivel
+Aprovisionamiento
+PROVEEDOR
+INFORMÁTICA
+Funcionalidad /
+Aprovisionamiento en
+Nodos de Red
+PROVEEDOR
+PLATAFORMA
+ERICSSON
+0&M
+COSTUMER
+OOR
+>
+CARE
+VALIDACIÓN DE
+SISTEMAS
+PREPAGO
+Cobro CC
+Tercer Nivel
+Cuarto Nivel
+Aprovisionamiento
+PROVEEDOR
+INFORMÁTICA
+Funcionalidad /
+Aprovisionamiento en
+PROVEEDOR
+Nodos de Red
+PLATAFORMA
+ERICSSON
+O&M
+COSTUMER
+COR
+CARE
+VALIDACIÓN DE
+SISTEMAS
+PREPAGO
+Revisó: J. Gerardo García Cortés

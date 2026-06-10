@@ -1,0 +1,97 @@
+=== OCR (PaddleOCR) ===
+thtelcel
+Acuerdo de Trabajo para brindar soporte al
+"Portal WAP Ideas Telcel"
+Fecha de Elaboración
+20 - Septiembre- 2010
+MATRIZ DE ESCALACIÓN
+Matriz de escalamiento técnica Speedy Móvil.
+Nivel
+Nombre
+1
+Call Center
+(55) 55849861
+Soporte
+(55) 52822024
+2
+Speedy Móvil
+×
+soporte@speedymovil.com
+(55) 52820309ext.2080
+Servando
+3
+55 91990941
+Sánchez
+servando.sanchez@speedy.com
+(55) 52820309 ext. 2065
+Andrés
+4
+55 54154964
+Camberos
+andres.camberos@speedymovil.com
+Matriz de Escalamiento fallas en contenidos Ideas Speedy Móvil.
+Para el reporte de problemas con la venta/ descarga de contenidos dentro del
+portal, se deberá enviar un correo electrónico con los siguientes datos:
+Fecha de la descarga (aprox.)
+Hora de la descarga (aprox.)
+MSISDN
+Marca y modelo de la terminal
+Tipo de contenido
+Nombre del contenido
+Nivel
+Nombre
+1
+inventarioamx@speedy.com
+(55) 52820309 ext. 2080
+Stephani
+2
+55 1333 8072
+Muñoz
+stephani.munoz@speedy.com
+Matriz de Escalamiento Administrativa Speedy Móvil.
+Nivel
+Nombre
+1
+(55) 52820309 ext. 2080
+Servando
+55 91990941
+Sánchez
+servando.sanchez@speedy.com
+2
+(55) 52820309 ext. 2065
+Andrés
+55 54154964
+Camberos
+andres.camberos@speedymovil.com
+3
+Liliana
+(55) 52820309 ext. 2075
+Morales
+55 91982158
+liliana.morales@speedymovil.com
+Elaboró: José Héctor López Gómez
+Gerencia de Administración de Nuevos Proyectos SVA
+
+Página
+servicio
+12 de 14
+Versión: 2.0
+Contacto
+Puesto
+Ingenieros de soporte
+Gerente Soporte
+Subdirector de
+Tecnología
+Contacto
+Puesto
+Gerente de Procesos
+Contacto
+Puesto
+Gerente Soporte
+Subdirector de
+Tecnología
+Directora General
+Revisó: Lorenzo Caballero Rosas
+
+=== VISION (moondream) ===
+- Si hay TABLAS: lista cada fila con sus encabezados de columna.   Formato: 'Columna1: Valor1. Columna2: Valor2.' para cada fila.

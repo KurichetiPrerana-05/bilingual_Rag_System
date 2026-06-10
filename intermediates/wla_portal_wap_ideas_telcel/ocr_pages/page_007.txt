@@ -1,0 +1,59 @@
+=== OCR (PaddleOCR) ===
+thtelcel
+Acuerdo de Trabajo para brindar soporte al
+Página
+servicio
+7 de 14
+Fecha de
+Elaboración
+"Portal WAP Ideas Telcel"
+20 - Septiembre- 2010
+Versión: 2.0
+Responsable
+Actividades
+Tiempo de
+Respuesta
+Recibir y atender los reportes y llamadas de Atención a
+clientes R9 y CAC's.
+Validación del aprovisionamiento de categorías de servicios
+de navegación en línea del usuario.
+Validación de navegación y "look and feel" dentro y fuera del
+Portal WAP.
+En caso de fallas, realizar la escalación a Speedy Movil.
+Validación de compra de contenidos/ paquetes y
+suscripciones de proveedores a través del Portal WAP.
+En caso de fallas, realizar la escalación a Speedy Movil.
+En caso de presentarse fallas en la entrega de Contenidos
+(entrega de contenido erróneo, contenido defectuoso,
+contenido no compatible con la terminal) para usuarios
+Miniswitch (R9)
+corporativos/ Problema Masivo hacer la escalación hacia
+Speedy
+Móvil
+Contenidos
+vía
+E-Mail
+a:
+inventarioamx@speedy.com.
+Nivel II
+30 minutos.
+(Diagnostico)
+Contacto:
+Verificar si existen fallas en las plataformas SMS-C, MMS-C,
+WAPGw, etc.
+(55) 25813700
+Ext. 3355
+En caso de fallas, realizar la escalación al siguiente nivel.
+Aplicar solución a la falla en caso de existir.
+Notificar al usuario y/ o Área de soporte que escalo la
+incidencia sobre la resolución de la misma.
+Documentar (Levantar CDP) y escalar las fallas no resueltas
+y problemas referentes al servicio al tercer nivel de
+escalamiento de fallas.
+Validación y seguimiento de resolución después de
+escalación hasta su cierre.
+En caso de detectar una afectación masiva, realizar la
+escalación a Help Desk de Datos.
+Elaboró: José Héctor López Gómez
+Revisó: Lorenzo Caballero Rosas
+Gerencia de Administración de Nuevos Proyectos SVA

@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Bilingual RAG Chat — EN / ES</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --bg:        #0f1117;
+    --surface:   #171b26;
+    --card:      #1e2232;
+    --border:    #2a2f45;
+    --border2:   #343b55;
+    --text:      #e8eaf0;
+    --muted:     #7a80a0;
+    --accent-en: #4a9eff;
+    --accent-es: #ff7b4a;
+    --accent-ok: #4aff9e;
+    --accent-err:#ff4a6a;
+    --accent-hy: #b57aff;   /* hybrid retrieval purple */
+    --mono:      'JetBrains Mono', monospace;
+    --sans:      'DM Sans', sans-serif;
+    --radius:    10px;
+    --radius-lg: 16px;
+  }
+
+  html, body { height: 100%; background: var(--bg); color: var(--text); font-family: var(--sans); font-size: 15px; }
+  body { display: flex; align-items: center; justify-content: center; padding: 24px 16px; min-height: 100vh; }
+  .app { width: 100%; max-width: 760px; display: flex; flex-direction: column; gap: 14px; }
+
+  /* ── NOTICES ── */
+  .notice {
+    border-radius: var(--radius);
+    padding: 12px 16px;
+    font-family: var(--mono);
+    font-size: 11px;
+    line-height: 1.8;
+    display: none;
+  }
+  .notice.visible { display: block; }
+  .notice.cors { background: rgba(255,123,74,0.08); border: 1px solid rgba(255,123,74,0.3); color: #ffaa80; }
+  .notice .title { font-size: 12px; font-weight: 600; margin-bottom: 6px; }
+  .notice.cors .title { color: var(--accent-es); }
+  .notice code { background: rgba(255,123,74,0.15); padding: 1px 6px; border-radius: 4px; font-size: 11px; color: #ffd0b0; }
+
+  /* ── HEADER ── */
+  .header { display: flex; align-items: center; justify-content: space-between; gap: 8px; flex-wrap: wrap; }
+  .logo { font-family: var(--mono); font-size: 13px; font-weight: 600; letter-spacing: 0.06em; color: var(--muted); text-transform: uppercase; }
+  .logo span { color: var(--text); }
+  .header-badges { display: flex; gap: 6px; flex-wrap: wrap; align-items: center; }
+  .lang-pip { font-family: var(--mono); font-size: 11px; font-weight: 600; padding: 3px 10px; border-radius: 999px; border: 1px solid transparent; letter-spacing: 0.05em; }
+  .pip-en   { border-color: var(--accent-en); color: var(--accent-en); }
+  .pip-es   { border-color: var(--accent-es); color: var(--accent-es); }
+  .pip-hy   { border-color: var(--accent-hy); color: var(--accent-hy); font-size: 10px; }
+
+  /* ── SERVER BAR ── */
+  .server-bar { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 10px 14px; display: flex; align-items: center; gap: 10px; }
+  .server-label { font-family: var(--mono); font-size: 11px; color: var(--muted); white-space: nowrap; letter-spacing: 0.04em; }
+  .server-input { flex: 1; background: transparent; border: none; outline: none; font-family: var(--mono); font-size: 13px; color: var(--text); caret-color: var(--accent-en); }
+  .server-input::placeholder { color: var(--border2); }
+  .check-btn { font-family: var(--mono); font-size: 11px; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; padding: 5px 12px; border-radius: 6px; border: 1px solid var(--border2); background: transparent; color: var(--muted); cursor: pointer; transition: all 0.18s; white-space: nowrap; }
+  .check-btn:hover { border-color: var(--text); color: var(--text); }
+  .conn-badge { font-family: var(--mono); font-size: 11px; font-weight: 600; padding: 3px 10px; border-radius: 999px; white-space: nowrap; letter-spacing: 0.04em; }
+  .badge-idle { background: transparent; color: var(--muted); border: 1px solid var(--border); }
+  .badge-ok   { background: rgba(74,255,158,.12); color: var(--accent-ok); border: 1px solid rgba(74,255,158,.3); }
+  .badge-err  { background: rgba(255,74,106,.12); color: var(--accent-err); border: 1px solid rgba(255,74,106,.3); }
+
+  /* ── CONTROLS ── */
+  .controls { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+  .ctl-label { font-family: var(--mono); font-size: 11px; color: var(--muted); letter-spacing: 0.06em; text-transform: uppercase; margin-right: 2px; }
+  .lang-btn { font-family: var(--mono); font-size: 12px; font-weight: 500; padding: 5px 14px; border-radius: 999px; border: 1px solid var(--border2); background: transparent; color: var(--muted); cursor: pointer; transition: all 0.18s; letter-spacing: 0.04em; }
+  .lang-btn:hover { border-color: var(--text); color: var(--text); }
+  .lang-btn.active-auto { border-color: var(--border2); background: var(--border); color: var(--text); }
+  .lang-btn.active-en   { border-color: var(--accent-en); background: rgba(74,158,255,.12); color: var(--accent-en); }
+  .lang-btn.active-es   { border-color: var(--accent-es); background: rgba(255,123,74,.12);  color: var(--accent-es); }
+
+  .src-toggle { margin-left: auto; display: flex; align-items: center; gap: 6px; cursor: pointer; }
+  .src-toggle input[type="checkbox"] { appearance: none; width: 14px; height: 14px; border: 1px solid var(--border2); border-radius: 3px; background: transparent; cursor: pointer; position: relative; transition: all 0.15s; }
+  .src-toggle input[type="checkbox"]:checked { background: var(--accent-en); border-color: var(--accent-en); }
+  .src-toggle input[type="checkbox"]:checked::after { content: ''; position: absolute; left: 3px; top: 1px; width: 6px; height: 9px; border: 2px solid #fff; border-top: none; border-left: none; transform: rotate(45deg); }
+  .src-toggle label { font-family: var(--mono); font-size: 11px; color: var(--muted); letter-spacing: 0.04em; cursor: pointer; user-select: none; }
+
+  /* ── CHAT BOX ── */
+  .chat-box { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius-lg); height: 440px; overflow-y: auto; padding: 16px; display: flex; flex-direction: column; gap: 12px; scroll-behavior: smooth; }
+  .chat-box::-webkit-scrollbar { width: 4px; }
+  .chat-box::-webkit-scrollbar-track { background: transparent; }
+  .chat-box::-webkit-scrollbar-thumb { background: var(--border2); border-radius: 99px; }
+
+  /* ── MESSAGES ── */
+  .msg { display: flex; flex-direction: column; max-width: 82%; gap: 5px; animation: fadein 0.2s ease; }
+  @keyframes fadein { from { opacity:0; transform: translateY(6px); } to { opacity:1; transform: none; } }
+  .msg.user { align-self: flex-end; align-items: flex-end; }
+  .msg.bot  { align-self: flex-start; align-items: flex-start; }
+  .bubble { padding: 10px 14px; border-radius: 14px; font-size: 14px; line-height: 1.65; white-space: pre-wrap; word-break: break-word; }
+  .msg.user .bubble { background: var(--card); border: 1px solid var(--border2); border-radius: 14px 14px 4px 14px; color: var(--text); }
+  .msg.bot  .bubble { background: var(--card); border: 1px solid var(--border); border-radius: 4px 14px 14px 14px; color: var(--text); }
+  .msg.bot.error .bubble { border-color: rgba(255,74,106,.35); color: var(--accent-err); }
+
+  .msg-meta { display: flex; gap: 6px; align-items: center; flex-wrap: wrap; }
+  .lang-tag { font-family: var(--mono); font-size: 10px; font-weight: 600; padding: 2px 8px; border-radius: 999px; letter-spacing: 0.04em; text-transform: uppercase; }
+  .tag-en   { background: rgba(74,158,255,.15); color: var(--accent-en); }
+  .tag-es   { background: rgba(255,123,74,.15);  color: var(--accent-es); }
+  .tag-hy   { background: rgba(181,122,255,.12); color: var(--accent-hy); }
+  .coll-tag { font-family: var(--mono); font-size: 10px; color: var(--muted); letter-spacing: 0.03em; }
+  .translated-tag { font-family: var(--mono); font-size: 10px; color: var(--muted); font-style: italic; letter-spacing: 0.02em; }
+
+  .src-btn { font-family: var(--mono); font-size: 10px; color: var(--muted); background: none; border: none; cursor: pointer; padding: 0; text-decoration: underline; text-underline-offset: 2px; letter-spacing: 0.03em; transition: color 0.15s; }
+  .src-btn:hover { color: var(--text); }
+  .src-block { background: var(--bg); border-left: 2px solid var(--border2); border-radius: 0 6px 6px 0; padding: 8px 12px; font-family: var(--mono); font-size: 11px; color: var(--muted); max-width: 500px; display: none; flex-direction: column; gap: 10px; line-height: 1.6; }
+  .src-block.open { display: flex; }
+  .src-item strong { color: var(--text); font-weight: 600; }
+  .src-item .src-type { font-size: 9px; padding: 1px 5px; border-radius: 3px; background: rgba(181,122,255,.15); color: var(--accent-hy); margin-left: 4px; }
+  .src-preview { color: #596080; font-size: 10px; margin-top: 3px; }
+
+  /* ── TYPING ── */
+  .typing-wrap { align-self: flex-start; }
+  .typing { display: flex; gap: 5px; align-items: center; padding: 12px 16px; background: var(--card); border: 1px solid var(--border); border-radius: 4px 14px 14px 14px; }
+  .dot { width: 6px; height: 6px; border-radius: 50%; background: var(--muted); animation: blink 1.2s infinite; }
+  .dot:nth-child(2) { animation-delay: 0.2s; }
+  .dot:nth-child(3) { animation-delay: 0.4s; }
+  @keyframes blink { 0%,80%,100%{opacity:0.15} 40%{opacity:1} }
+
+  /* ── INPUT ROW ── */
+  .input-row { display: flex; gap: 10px; align-items: flex-end; background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius-lg); padding: 10px 12px; transition: border-color 0.2s; }
+  .input-row:focus-within { border-color: var(--border2); }
+  .q-input { flex: 1; background: transparent; border: none; outline: none; font-family: var(--sans); font-size: 14px; color: var(--text); resize: none; min-height: 22px; max-height: 110px; line-height: 1.55; caret-color: var(--accent-en); }
+  .q-input::placeholder { color: var(--border2); }
+  .send-btn { display: flex; align-items: center; gap: 6px; font-family: var(--mono); font-size: 12px; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; padding: 7px 16px; border-radius: 8px; border: 1px solid var(--border2); background: transparent; color: var(--muted); cursor: pointer; transition: all 0.18s; white-space: nowrap; flex-shrink: 0; }
+  .send-btn:hover:not(:disabled) { border-color: var(--accent-en); color: var(--accent-en); background: rgba(74,158,255,.07); }
+  .send-btn:disabled { opacity: 0.35; cursor: not-allowed; }
+  .send-btn svg { width: 14px; height: 14px; }
+
+  .status-line { font-family: var(--mono); font-size: 11px; color: var(--muted); letter-spacing: 0.04em; min-height: 16px; text-align: right; padding-right: 4px; }
+
+  /* ── USER ID BAR ── */
+  .user-bar { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 10px 14px; display: flex; align-items: center; gap: 10px; }
+  .user-bar .server-label { font-family: var(--mono); font-size: 11px; color: var(--muted); white-space: nowrap; letter-spacing: 0.04em; }
+  .user-input { flex: 1; background: transparent; border: none; outline: none; font-family: var(--mono); font-size: 13px; color: var(--text); caret-color: var(--accent-es); }
+  .user-input::placeholder { color: var(--border2); }
+  .user-badge { font-family: var(--mono); font-size: 11px; font-weight: 600; padding: 3px 10px; border-radius: 999px; white-space: nowrap; letter-spacing: 0.04em; }
+  .ubadge-set  { background: rgba(74,255,158,.12); color: var(--accent-ok); border: 1px solid rgba(74,255,158,.3); }
+  .ubadge-none { background: rgba(255,74,106,.12); color: var(--accent-err); border: 1px solid rgba(255,74,106,.3); }
+</style>
+</head>
+<body>
+
+<div class="app">
+
+  <!-- CORS warning -->
+  <div class="notice cors" id="corsNotice">
+    <div class="title">⚠ CORS blocked — you opened this as a local file</div>
+    Browsers block <code>localhost</code> requests from <code>file://</code> pages.<br><br>
+    Place this file in a <code>static/</code> folder next to server.py, then open
+    <code>http://localhost:8000/</code>. CORS is already configured in server.py.
+  </div>
+
+  <!-- Header -->
+  <div class="header">
+    <div class="logo">RAG <span>CHAT</span> · EN/ES</div>
+    <div class="header-badges">
+      <span class="lang-pip pip-en">EN</span>
+      <span class="lang-pip pip-es">ES</span>
+      <span class="lang-pip pip-hy">BM25 + VECTOR + RERANK</span>
+    </div>
+  </div>
+
+  <!-- Server bar -->
+  <div class="server-bar">
+    <span class="server-label">SERVER</span>
+    <input class="server-input" id="serverInput" type="text" value="http://localhost:8000" spellcheck="false" />
+    <span class="conn-badge badge-idle" id="connBadge">not checked</span>
+    <button class="check-btn" id="checkBtn">check</button>
+  </div>
+
+  <!-- User ID bar -->
+  <div class="user-bar">
+    <span class="server-label">USER ID</span>
+    <input class="user-input" id="userIdInput" type="text" placeholder="Enter your user_id  e.g. alice" spellcheck="false" />
+    <span class="user-badge ubadge-none" id="userBadge">not set</span>
+  </div>
+
+  <!-- Controls -->
+  <div class="controls">
+    <span class="ctl-label">Lang:</span>
+    <button class="lang-btn active-auto" data-lang="auto">auto-detect</button>
+    <button class="lang-btn" data-lang="en">english</button>
+    <button class="lang-btn" data-lang="es">español</button>
+    <label class="src-toggle">
+      <input type="checkbox" id="showSrcCb" />
+      <label for="showSrcCb">show sources</label>
+    </label>
+  </div>
+
+  <!-- Chat -->
+  <div class="chat-box" id="chatBox">
+    <div class="msg bot">
+      <div class="bubble">Hello! Ask me anything about your ingested documents. I'll answer in the same language you use — English or Spanish. 🌐
+
+¡Hola! Pregúntame lo que quieras sobre tus documentos. Responderé en el mismo idioma que uses.
+
+<span style="font-size:12px;color:#596080;">Retrieval: BM25 + Vector hybrid with cross-encoder re-ranking. English queries are auto-translated to Spanish before search.</span></div>
+    </div>
+  </div>
+
+  <!-- Input -->
+  <div class="input-row">
+    <textarea class="q-input" id="qInput" rows="1" placeholder="Ask in English or español… (Enter to send)"></textarea>
+    <button class="send-btn" id="sendBtn">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <line x1="22" y1="2" x2="11" y2="13"></line>
+        <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+      </svg>
+      send
+    </button>
+  </div>
+
+  <div class="status-line" id="statusLine"></div>
+
+</div>
+
+<script>
+  const isFileProtocol = window.location.protocol === 'file:';
+  if (isFileProtocol) {
+    document.getElementById('corsNotice').classList.add('visible');
+  }
+
+  const BASE       = () => document.getElementById('serverInput').value.trim().replace(/\/$/, '');
+  const USER_ID    = () => document.getElementById('userIdInput').value.trim();
+  const chatBox    = document.getElementById('chatBox');
+  const qInput     = document.getElementById('qInput');
+  const sendBtn    = document.getElementById('sendBtn');
+  const statusLine = document.getElementById('statusLine');
+  const connBadge  = document.getElementById('connBadge');
+  const userBadge  = document.getElementById('userBadge');
+
+  // ── User ID badge update ────────────────────────────────────
+  document.getElementById('userIdInput').addEventListener('input', () => {
+    const uid = USER_ID();
+    if (uid) {
+      userBadge.textContent = '✓ ' + uid;
+      userBadge.className   = 'user-badge ubadge-set';
+    } else {
+      userBadge.textContent = 'not set';
+      userBadge.className   = 'user-badge ubadge-none';
+    }
+  });
+
+  let selectedLang = 'auto';
+
+  // ── Language buttons ───────────────────────────────────────
+  document.querySelectorAll('.lang-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('.lang-btn').forEach(b => b.className = 'lang-btn');
+      selectedLang = btn.dataset.lang;
+      btn.classList.add('active-' + selectedLang);
+    });
+  });
+
+  // ── Health check ───────────────────────────────────────────
+  document.getElementById('checkBtn').addEventListener('click', async () => {
+    connBadge.textContent = 'checking…';
+    connBadge.className   = 'conn-badge badge-idle';
+    try {
+      const r = await fetch(BASE() + '/health', { mode: 'cors', signal: AbortSignal.timeout(5000) });
+      if (r.ok) {
+        const d = await r.json();
+        // sum vectors from collections (may be nested under "es" key)
+        let vecs = 0;
+        if (d.collections) {
+          // new format: {es: {vectors: N}, en: {vectors: N}}
+          const vals = Object.values(d.collections);
+          if (vals.length && typeof vals[0] === 'object' && 'vectors' in vals[0]) {
+            // deduplicate — es and en both show same collection count
+            vecs = vals[0].vectors || 0;
+          } else {
+            vecs = vals.reduce((a, b) => a + (b.vectors || b.vector_count || 0), 0);
+          }
+        }
+        connBadge.textContent = '✓ connected' + (vecs ? ' · ' + vecs + ' vecs' : '');
+        connBadge.className   = 'conn-badge badge-ok';
+        document.getElementById('corsNotice').classList.remove('visible');
+      } else {
+        connBadge.textContent = 'error ' + r.status;
+        connBadge.className   = 'conn-badge badge-err';
+      }
+    } catch (e) {
+      connBadge.textContent = 'unreachable';
+      connBadge.className   = 'conn-badge badge-err';
+      if (isFileProtocol) document.getElementById('corsNotice').classList.add('visible');
+    }
+  });
+
+  // ── Auto-resize textarea ───────────────────────────────────
+  qInput.addEventListener('input', () => {
+    qInput.style.height = 'auto';
+    qInput.style.height = Math.min(qInput.scrollHeight, 110) + 'px';
+  });
+  qInput.addEventListener('keydown', e => {
+    if (e.key === 'Enter' && !e.shiftKey) { e.preventDefault(); sendMessage(); }
+  });
+  sendBtn.addEventListener('click', sendMessage);
+
+  function scrollBottom() { chatBox.scrollTop = chatBox.scrollHeight; }
+
+  function addTyping() {
+    const w = document.createElement('div');
+    w.className = 'typing-wrap'; w.id = 'typingWrap';
+    w.innerHTML = '<div class="typing"><div class="dot"></div><div class="dot"></div><div class="dot"></div></div>';
+    chatBox.appendChild(w); scrollBottom();
+  }
+  function removeTyping() { const t = document.getElementById('typingWrap'); if (t) t.remove(); }
+
+  function addUser(text) {
+    const w = document.createElement('div');
+    w.className = 'msg user';
+    w.innerHTML = `<div class="bubble">${escapeHTML(text)}</div>`;
+    chatBox.appendChild(w); scrollBottom();
+  }
+
+  function addBot(answer, langUsed, collection, sources, wasTranslated, cacheHit) {
+    const w = document.createElement('div');
+    w.className = 'msg bot';
+
+    const bubble = document.createElement('div');
+    bubble.className = 'bubble';
+    bubble.textContent = answer;
+    w.appendChild(bubble);
+
+    const meta = document.createElement('div');
+    meta.className = 'msg-meta';
+
+    // Language tag
+    if (langUsed) {
+      const tag = document.createElement('span');
+      const isEn  = langUsed.toLowerCase().includes('english') || langUsed === 'en';
+      const isEs  = langUsed.toLowerCase().includes('spanish') || langUsed === 'es';
+      tag.className = 'lang-tag ' + (isEn ? 'tag-en' : isEs ? 'tag-es' : 'tag-hy');
+      tag.textContent = isEn ? 'english' : isEs ? 'español' : langUsed;
+      meta.appendChild(tag);
+    }
+
+    // Hybrid retrieval badge
+    const hy = document.createElement('span');
+    hy.className = 'lang-tag tag-hy';
+    hy.textContent = 'hybrid';
+    meta.appendChild(hy);
+
+    // Cache hit badge
+    if (cacheHit) {
+      const ch = document.createElement('span');
+      ch.className = 'lang-tag';
+      ch.style.cssText = 'background:rgba(74,255,158,.15);color:#4aff9e;';
+      ch.textContent = '⚡ cached';
+      meta.appendChild(ch);
+    }
+
+    // Collection tag
+    if (collection) {
+      const c = document.createElement('span');
+      c.className = 'coll-tag';
+      c.textContent = 'col: ' + collection;
+      meta.appendChild(c);
+    }
+
+    // EN translation note
+    if (wasTranslated) {
+      const t = document.createElement('span');
+      t.className = 'translated-tag';
+      t.textContent = '(query translated EN→ES for retrieval)';
+      meta.appendChild(t);
+    }
+
+    w.appendChild(meta);
+
+    // Sources panel
+    if (sources && sources.length > 0) {
+      let open = false;
+      const btn = document.createElement('button');
+      btn.className = 'src-btn';
+      btn.textContent = sources.length + ' source' + (sources.length > 1 ? 's' : '') + ' — show';
+      const block = document.createElement('div');
+      block.className = 'src-block';
+
+      sources.forEach((s, i) => {
+        const name    = s.pdf_name || s.source || 'unknown';
+        const page    = s.page_number || s.page || '?';
+        const preview = (s.preview || '').slice(0, 160);
+        const lang    = s.language || '';
+        const ct      = s.content_type || 'text';
+        const div = document.createElement('div');
+        div.className = 'src-item';
+        div.innerHTML =
+          `<strong>[${i+1}] ${escapeHTML(name)}</strong> — p.${page}` +
+          (lang ? ` <span class="lang-tag ${lang==='en'?'tag-en':'tag-es'}" style="font-size:9px;padding:1px 5px;">${lang}</span>` : '') +
+          `<span class="src-type">${escapeHTML(ct)}</span>` +
+          `<div class="src-preview">${escapeHTML(preview)}…</div>`;
+        block.appendChild(div);
+      });
+
+      btn.addEventListener('click', () => {
+        open = !open;
+        block.classList.toggle('open', open);
+        btn.textContent = sources.length + ' source' + (sources.length > 1 ? 's' : '') + ' — ' + (open ? 'hide' : 'show');
+      });
+      w.appendChild(btn);
+      w.appendChild(block);
+    }
+
+    chatBox.appendChild(w); scrollBottom();
+  }
+
+  function addError(msg) {
+    const w = document.createElement('div');
+    w.className = 'msg bot error';
+    w.innerHTML = `<div class="bubble">${escapeHTML(msg)}</div>`;
+    chatBox.appendChild(w); scrollBottom();
+  }
+
+  function escapeHTML(str) {
+    return String(str)
+      .replace(/&/g,'&amp;').replace(/</g,'&lt;')
+      .replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+  }
+
+  // ── Detect if EN query (client-side hint for showing translation notice) ──
+  function looksEnglish(q) {
+    const spanish = /[ñÑ¿¡áéíóúüÁÉÍÓÚÜ]|\b(el|la|los|las|qué|cómo|cuál)\b/i;
+    return !spanish.test(q);
+  }
+
+  // ── Main send ──────────────────────────────────────────────
+  async function sendMessage() {
+    const q = qInput.value.trim();
+    if (!q) return;
+
+    // Block if no user_id entered
+    const userId = USER_ID();
+    if (!userId) {
+      addError('Please enter your User ID in the USER ID field above before sending a message.');
+      return;
+    }
+
+    qInput.value = ''; qInput.style.height = 'auto';
+    sendBtn.disabled = true;
+    statusLine.textContent = 'thinking…';
+    addUser(q); addTyping();
+
+    const showSrc       = document.getElementById('showSrcCb').checked;
+    const wasTranslated = selectedLang === 'en' || (selectedLang === 'auto' && looksEnglish(q));
+
+    try {
+      const r = await fetch(BASE() + '/ask', {
+        method:  'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body:    JSON.stringify({ question: q, user_id: userId, language: selectedLang, show_sources: showSrc }),
+        signal:  AbortSignal.timeout(90000),
+        mode:    'cors'
+      });
+      removeTyping();
+      if (!r.ok) {
+        const txt = await r.text();
+        addError('Server error ' + r.status + ': ' + txt.slice(0, 200));
+        return;
+      }
+      const data       = await r.json();
+      const answer     = data.answer          || '(no answer returned)';
+      const langUsed   = data.language_used   || '';
+      const collection = data.collection_used || '';
+      const cacheHit   = data.cache_hit       || false;
+      const sources    = showSrc ? (data.sources || []) : [];
+      addBot(answer, langUsed, collection, sources, wasTranslated, cacheHit);
+      statusLine.textContent = '';
+    } catch (e) {
+      removeTyping();
+      if (e.name === 'TimeoutError' || e.name === 'AbortError') {
+        addError('Request timed out (90s). Is the server running? → python server.py');
+      } else if (isFileProtocol) {
+        addError('CORS blocked. Open via http://localhost:8000/ instead of file://');
+        document.getElementById('corsNotice').classList.add('visible');
+      } else {
+        addError('Cannot reach ' + BASE() + '. Start the server: python server.py');
+      }
+      statusLine.textContent = '';
+    } finally {
+      sendBtn.disabled = false;
+      qInput.focus();
+    }
+  }
+</script>
+</body>
+</html>
