@@ -47,7 +47,7 @@ The LLM is the author that turns your pile of papers into a textbook — automat
 
 LLM Wiki has **3 layers** that work together:
 
-![LLM Wiki Architecture](./1781670696408_image.png)
+![LLM Wiki Architecture](./image.png)
 
 > **Reading the diagram:**
 > - **Raw Sources** (green) → your documents, immutable, never edited
